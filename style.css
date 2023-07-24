@@ -1,5 +1,6 @@
-html {
+body {
     background-color: #1F2937;
+    margin: 0px;
 }
 
 
@@ -23,12 +24,15 @@ html {
     height: auto;
 }
 
+
 .main {
     display: flex;
     justify-content: space-evenly;
     margin-top: 120px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 100px;
 }
+
 .main img {
     height: auto;
     width: 30%;
@@ -64,4 +68,46 @@ color: #F9FAF8;
 .hover:hover {
 background-color: #F9FAF8;
 color: #3882F6;
+}
+
+.midsec {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.midsec h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-row {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+
+}
+.image-row .midsec-img {
+    width: 15%;
+    height: auto;
+}
+
+.subtext {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.subtext p {
+    width: 175.95px;
+    height: auto;
+    text-align: center;
 }
